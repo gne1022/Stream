@@ -5,11 +5,8 @@ def main():
     menu = ["home","login"]
     choice = st.selectbox("menu",menu)
 
-    if choice == "home":
-        st.subheader("home")
-
-    elif choice == "login":
-        st.subheader("login section")
+    username = st.text_input("username")
+    password = st.text_input("password")
 
 if __name__ == '__main__':
     main()
