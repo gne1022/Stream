@@ -1,12 +1,10 @@
 import streamlit as st
 
 def main():
-    st.title("Somac")
-    menu = ["home","login"]
-    choice = st.selectbox("menu",menu)
+    st.title("SOMAC Inc.")
 
-    username = st.text_input("username")
-    password = st.text_input("password")
+    username = st.text_input("ID")
+    password = st.text_input("Password")
 
 if __name__ == '__main__':
     main()
