@@ -5,7 +5,7 @@ def main():
 
     username = st.text_input("ID")
     password = st.text_input("Password",type='paasword')
-    st.button("Login")
+    login = st.button("Login")
 
 if __name__ == '__main__':
     main()
