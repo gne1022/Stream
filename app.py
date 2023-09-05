@@ -3,7 +3,7 @@ import streamlit as st
 def main():
     st.title("Somac")
     menu = ["home","login"]
-    choice = st.sidebar.selectbox("menu",menu)
+    choice = st.selectbox("menu",menu)
 
     if choice == "home":
         st.subheader("home")
